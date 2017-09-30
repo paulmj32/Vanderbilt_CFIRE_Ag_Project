@@ -1,6 +1,8 @@
 # Vanderbilt_CFIRE_Ag_Project
 
-US Midwest county level corn yields, acreage, %GM acreage, and scores from PCA on yield
+Shapefile for US Midwest county level corn yields, acreage, %GM acreage, and scores from PCA on yield
+  
+  
 
 Y'YYYY' - county level corn yield by year  
 
