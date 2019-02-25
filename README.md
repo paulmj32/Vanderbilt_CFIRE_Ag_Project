@@ -1,7 +1,7 @@
 # Vanderbilt_CFIRE_Ag_Project
 
-'County_yield_PCA.zip' contains a shapefile for US Midwest county level corn yields, acreage, %GM acreage, and scores from principal component analysis (conducted on yield). The data are identified by the following: Y'YYYY' - county level corn yield by year, A'YYYY' - county level corn acreage by year, SPEI'YYYY' - SPEI index averaged for the growing season (May-Sept) by year, PCA'#' - scores pertaining to principal component (#), and PCA_detrended'#' - socres pertaining to principal components after detrending for GM crop use.
+'Ag_Project_03.R' is the master script. Change the working directory (line 11) to the cloned (downloaded) repository location on your machine, and run the script. 'corn_yld.R', 'gm_corn.R', 'pca_yld.R', 'quintile_diff.R', 'spei_ncdf.R', and 'corn_acre.R' are all functions referenced within 'Ag_Project_03.R'. 'Figure_X.R' can be run to produce figures presented in the paper after running the master script. 
 
-'PC1_parsing.zip' contains a Word document explaining how portions of explained variance in PC1 due to innate regional separation in yield and GM corn commercialization are calculated and an Excel file contianing the exact calculations. 
+'causal_impact_ag2.R' conducts the Bayesian Structural Time Series Analysis and creates the corresponding tables and figures. It can be run independently from 'Ag_Project_03.R'. 
 
-'corn_AA2_2.pro' is an IDL script file used to conduct the principal component analysis. Principal component analyis can also easily be conducted in other programming languages such as Matlab or R.
+
